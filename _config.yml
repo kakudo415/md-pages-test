@@ -1,6 +1,5 @@
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      title: "Hoge Hoge"
+remote_theme: pages-themes/primer@v0.2.0
+title: Md to Pages test
+description: This is a website to test GitHub Pages
+plugins:
+- jekyll-remote-theme
