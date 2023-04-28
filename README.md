@@ -16,6 +16,12 @@ $$
 * C -> 1
 * D/- -> 0
 
+```c
+int main() {
+  printf("hello, world\n");
+}
+```
+
 ## 知見をまとめる（本編）
 
 [GitHub Pagesのクイックスタート - GitHub Docs](https://docs.github.com/ja/pages/quickstart)
