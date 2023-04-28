@@ -1,4 +1,6 @@
 lang: ja
 markdown: GFM
+GFM:
+  math_engine: mathjax
 title: GitHub.comの見た目のまま、MarkdownをPagesにするやつ
 description: This is a website to test GitHub Pages
