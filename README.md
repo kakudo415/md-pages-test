@@ -12,3 +12,4 @@
 - デフォルトのGitHub Pagesでも、Markdownをそのまま表示できる
 - GitHubで使われているMarkdownテーマは、[Primer](https://github.com/pages-themes/primer)だと思う
 - `<title>`とかのメタ情報は`_config.yml`における
+- `_config.yml`の`title`がページの`<h1>`と一致するとタイトルヘッダ？が表示されなくなるらしい
