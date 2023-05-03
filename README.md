@@ -12,6 +12,14 @@ B --> |直接閲覧| D([みなさん])
 C --> |Webページ版| D
 ```
 
+<pre class="mermaid">
+flowchart LR
+A([研究室メンバー]) --> |加筆修正| B[(GitHub リポジトリ)]
+B --> |デプロイ| C((GitHub Pages))
+B --> |直接閲覧| D([みなさん])
+C --> |Webページ版| D
+</pre>
+
 $$
 \sum_{(授業)}(授業の単位数)\cdot(傾斜)
 $$
