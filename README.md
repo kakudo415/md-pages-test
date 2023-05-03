@@ -39,3 +39,18 @@ int main() {
 - GitHubで使われているMarkdownテーマは、[Primer](https://github.com/pages-themes/primer)だと思う
 - `<title>`とかのメタ情報は`_config.yml`における
 - `_config.yml`の`title`がページの`<h1>`と一致するとタイトルヘッダ？が表示されなくなるらしい
+
+
+- Mermaidの使い方は、[Using `mermaid.run`](https://mermaid.js.org/config/usage.html#using-mermaid-run) に全てが書いてあった。
+
+  ```html
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: false });
+    await mermaid.run({
+      querySelector: 'pre > code.language-mermaid',
+    });
+  </script>
+  ```
+
+  これでよさそう。
