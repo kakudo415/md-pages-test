@@ -40,6 +40,7 @@ int main() {
 - `<title>`とかのメタ情報は`_config.yml`における
 - `_config.yml`の`title`がページの`<h1>`と一致するとタイトルヘッダ？が表示されなくなるらしい
 
+詳しくは[Configuration | Jekyll • Simple, blog-aware, static sites](https://jekyllrb.com/docs/configuration/)をご覧いただくとして、2023年5月現在、設定されているのは次の項目です。
 
 - Mermaidの使い方は、[Using `mermaid.run`](https://mermaid.js.org/config/usage.html#using-mermaid-run) に全てが書いてあった。
 
